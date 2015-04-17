@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #topnav{
-  display:block;
+  display:inline-block;
   float:right;
   margin:7px 0 0 0;
   padding:0;
@@ -11,16 +11,19 @@
   font-family:Verdana, Arial, Helvetica, sans-serif;
 }
 #topnav ul, #topnav li{
+
   float:left;
+
   list-style:none;
   margin:0;
   padding:0;
 }
 #topnav li a:link, #topnav li a:visited, #topnav li a:hover{
-  display:block;
+  display:inline-block;
   margin:0;
   padding:15px 20px;
   color:blue;
+  
   background-color:#ff6a00;
 }
 #topnav ul ul li a:link, #topnav ul ul li a:visited{
