@@ -58,7 +58,16 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
   width: 100%;
   color:#333333; background-color:orange}
 .col5 a{color:#333333; background-color:orange}
-
+.col3 #ah img{
+  float:left;
+  width:20%;
+  padding-right:10px;
+  padding-bottom:10px;
+  border-radius:10%;
+}
+.col3 #ah .content{
+  padding-bottom: 50px;
+}
 /* ----------------------------------------------Generalise------------------------------------- */
 
 #header, #topbar, #homepage, #breadcrumb, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
