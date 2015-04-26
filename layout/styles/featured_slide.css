@@ -4,8 +4,8 @@
 #featured_slide{
   display:block;
   position:relative;
-  width:860px;
-  height:260px;
+  width:1060px;
+  height:360px;
   margin:0 auto;
   padding:20px 50px;
   overflow:hidden;
@@ -42,8 +42,8 @@
 
 #featured_content, #featured_content ul{
   display:block;
-  width:860px;
-  height:350px;
+  width:1060px;
+  height:360px;
   margin:0;
   padding:0;
   list-style:none;
@@ -52,18 +52,18 @@
 #featured_content li{
   display:block;
   position:relative;
-  width:860px;
-  height:350px;
+  width:1060px;
+  height:360px;
   overflow:hidden;
 }
 
 /* ----------------------------------------------Carousel Content------------------------------------- */
 
 #featured_content img{
-  display:block;
+  display:inline-block;
   float:right;
-  width:380px;
-  height:250px;
+  width:600px;
+  height:360px;
   margin:0 10px 0 0;
   padding:4px;
   border:1px solid #FFFFFF;
@@ -79,7 +79,7 @@
 }
 #featured_content p{
   margin:0 0 20px 0;
-  padding:0;lue
+  padding:0;
   line-height:1.6em;
 }
 #featured_content p.readmore{
