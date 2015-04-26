@@ -5,7 +5,7 @@
   display:block;
   position:relative;
   width:1060px;
-  height:360px;
+  height:460px;
   margin:0 auto;
   padding:20px 50px;
   overflow:hidden;
@@ -43,7 +43,7 @@
 #featured_content, #featured_content ul{
   display:block;
   width:1060px;
-  height:360px;
+  height:460px;
   margin:0;
   padding:0;
   list-style:none;
@@ -53,7 +53,7 @@
   display:block;
   position:relative;
   width:1060px;
-  height:360px;
+  height:460px;
   overflow:hidden;
 }
 
@@ -63,7 +63,7 @@
   display:inline-block;
   float:right;
   width:600px;
-  height:360px;
+  height:460px;
   margin:0 10px 0 0;
   padding:4px;
   border:1px solid #FFFFFF;

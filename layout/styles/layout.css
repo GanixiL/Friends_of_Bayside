@@ -78,7 +78,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #header #logo{display:block; float:left; width:300px; overflow:hidden;}
 /*#header #logo h1, #header #logo p{margin:0; padding:0; line-height:normal;}
 #header #logo h1{font-size:36px; text-transform:uppercase;font-family:"Palatino"}*/
-#header #logo img{height:100px;}
+#header #logo img{height:110px;}
 #header h1 a{color:#0e0063; background-color:#ff5c00;}
 
 /* ----------------------------------------------BreadCrumb------------------------------------- */
