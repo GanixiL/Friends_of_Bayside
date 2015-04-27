@@ -60,7 +60,7 @@
 /* ----------------------------------------------Carousel Content------------------------------------- */
 
 #featured_content img{
-  display:inline-block;
+  display:block;
   float:right;
   width:600px;
   height:460px;
@@ -73,7 +73,7 @@
   float:left;
   width:415px;
   height:250px;
-  margin:0 0 0 10px;
+  margin:75px 0 0 10px;
   padding:0;
   overflow:hidden;
 }
@@ -102,12 +102,18 @@
 #featured-item-prev, #featured-item-next{
   display:block;
   position:absolute;
-  top:118px;
-  width:36px;
-  height:64px;
+  top:150px;
+  width:40px;
+  height:100px;
 }
-#featured-item-prev{left:5px;}
-#featured-item-next{right:5px;}
+#featured-item-prev img{
+  height:100px;
+}
+#featured-item-next img{
+  height:100px;
+}
+#featured-item-prev{left:-5px;}
+#featured-item-next{right:10px;}
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ---------------DO NOT CHANGE THE FOLLOWING CODE OTHERWISE THE FEATURED PANEL WONT WORK-------------------- */
