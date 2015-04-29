@@ -37,10 +37,9 @@ img{display:block; margin:0; padding:0; border:none;}
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 div.wrapper{display:block; width:100%; margin:0; text-align:left;}
-div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5, div.wrapper h6*/{
   margin:0;
   padding:0;
-  font-size:20px;
   font-weight:normal;
   line-height:normal;
   font-family:Georgia, "Times New Roman", Times, serif;
@@ -60,7 +59,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .col5 a{color:#333333; background-color:orange}
 .col3 #ah img{
   float:left;
-  width:50px;
+  width:120px;
   padding-right:10px;
   padding-bottom:10px;
   border-radius:10%;
@@ -91,7 +90,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* ----------------------------------------------Content------------------------------------- */
 
 #container{padding:20px 0;}
-#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin:0 0 15px 0; padding:0 0 8px 0; border-bottom:1px solid black;}
+#container h1, #container h2, #container h3/* #container h4, #container h5, #container h6*/{margin:0 0 15px 0; padding:0 0 8px 0; border-bottom:1px solid black;}
 
 /* ----------------------------------------------Homepage Block------------------------------------- */
 
@@ -104,6 +103,16 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .homepage p{margin:0 0 25px 0; padding:0; line-height:1.6em;}
 .homepage p.readmore{display:block; text-align:right; line-height:normal; font-weight:bold;}
 .homepage p.readmore a{padding:8px 15px 10px; color:#FFFFFF; background-color:#95AD19;}
+
+/* ----------------------------------------------Events--------------------------------------------*/
+
+.upcoming-event{display:block;width:60%;margin:0 0 0 20px;padding:0;}
+.upcoming-event h4{color:black;font-size:30px;padding-bottom:0;}
+.upcoming-event ul{padding:0;margin:0;list-style:none;}
+.upcoming-event li{padding-top:5px;border-bottom:1px solid #999999;}
+.upcoming-event a{color:#006400;font-size:20px;}
+
+
 
 /* ----------------------------------------------Content Block------------------------------------- */
 
