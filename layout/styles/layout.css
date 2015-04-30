@@ -106,12 +106,21 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 
 /* ----------------------------------------------Events--------------------------------------------*/
 
-.upcoming-event{display:block;width:60%;margin:0 0 0 20px;padding:0;}
-.upcoming-event h4{color:black;font-size:30px;padding-bottom:0;}
+.upcoming-event{display:block;width:60%;margin:-5% 0 0 20px;padding:0;}
+.upcoming-event h4{color:black;font-size:40px;padding-bottom:0;}
+.upcoming-event a:hover{background-color:grey}
 .upcoming-event ul{padding:0;margin:0;list-style:none;}
 .upcoming-event li{padding-top:5px;border-bottom:1px solid #999999;}
 .upcoming-event a{color:#006400;font-size:20px;}
 
+/*------------------------------------------------Quote----------------------------------------------*/
+
+.missionstatement-title{font-family: 'Lobster', Georgia, Times, serif;font-size: 70px; margin-top:-20px;color:blue }
+.missionstatement-content{font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 25px;
+margin-top:-9%;
+color:orange}
 
 
 /* ----------------------------------------------Content Block------------------------------------- */
