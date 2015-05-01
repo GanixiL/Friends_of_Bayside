@@ -62,7 +62,7 @@
 #featured_content img{
   display:block;
   float:left;
-  width:600px;
+  width:460px;
   height:360px;
   margin:0 10px 0 0;
   padding:4px;
@@ -71,9 +71,9 @@
 #featured_content .floater{
   display:block;
   float:right;
-  width:250px;
-  height:200px;
-  margin:10px 0 0 10px;
+  width:460px;
+  height:350px;
+  margin:10px 10px 0 10px;
   padding:0;
   overflow:hidden;
 }

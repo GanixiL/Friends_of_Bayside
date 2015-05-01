@@ -71,6 +71,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 .col3{color:#777777; background-color:#FFFFFF;}
 .col3 a{color:#95AD19; background-color:#FFFFFF;}
 .col3 p{color:black;font-family:"Arial";font-size:14px;}
+
 .col4{color:#FFFFFF; background-color:#ff5c00;}
 .col4 a{color:#95AD19; background-color:#ff5c00;}
 .col5 {
@@ -88,6 +89,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 }
 .col3 #ah .content{
   padding-bottom: 50px;
+
 }
 /* ----------------------------------------------Generalise------------------------------------- */
 
@@ -112,8 +114,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 /* ----------------------------------------------Content------------------------------------- */
 
 #container{padding:20px 0;}
-#container h1, #container h2, #container h3/* #container h4, #container h5, #container h6*/{margin:0 0 15px 0; padding:0 0 8px 0; border-bottom:1px solid black;}
-
+#container h1, #container h2, #container h3/*, #container h4, #container h5, #container h6*/{margin:0 0 15px 0; padding:0 0 8px 0; border-bottom:1px solid black;}
+#container h4 a{color:black;font-size:16px}
 /* ----------------------------------------------Homepage Block------------------------------------- */
 
 .homepage{display:block; width:100%; margin:15px 0 0 0; padding:0;}
@@ -142,7 +144,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 font-size: 15px;
 line-height: 25px;
 margin-top:-9%;
-color:orange}
+color:#FF4500}
 
 
 /* ----------------------------------------------Content Block------------------------------------- */
