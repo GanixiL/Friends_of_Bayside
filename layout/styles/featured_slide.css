@@ -4,8 +4,8 @@
 #featured_slide{
   display:block;
   position:relative;
-  width:1060px;
-  height:460px;
+  width:960px;
+  height:360px;
   margin:0 auto;
   padding:20px 50px;
   overflow:hidden;
@@ -42,8 +42,8 @@
 
 #featured_content, #featured_content ul{
   display:block;
-  width:1060px;
-  height:460px;
+  width:960px;
+  height:360px;
   margin:0;
   padding:0;
   list-style:none;
@@ -52,8 +52,8 @@
 #featured_content li{
   display:block;
   position:relative;
-  width:1060px;
-  height:460px;
+  width:960px;
+  height:360px;
   overflow:hidden;
 }
 
@@ -63,7 +63,7 @@
   display:block;
   float:left;
   width:600px;
-  height:460px;
+  height:360px;
   margin:0 10px 0 0;
   padding:4px;
   border:1px solid #FFFFFF;
@@ -71,9 +71,9 @@
 #featured_content .floater{
   display:block;
   float:right;
-  width:415px;
-  height:250px;
-  margin:75px 0 0 10px;
+  width:250px;
+  height:200px;
+  margin:10px 0 0 10px;
   padding:0;
   overflow:hidden;
 }
