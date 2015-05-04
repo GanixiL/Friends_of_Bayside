@@ -46,7 +46,7 @@ body{
 .clear{clear:both;}
 br.clear{clear:both; margin-top:-15px;}
 
-a{color:#B2C629; background-color:#FFFFFF; outline:none; text-decoration:none;}
+/*a{color:#B2C629; background-color:#FFFFFF; outline:none; text-decoration:none;}*/
 
 .fl_left, .imgl{float:left;}
 .fl_right, .imgr{float:right;}
@@ -69,7 +69,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 .col1{color:#CCCCCC; background-color:rgb(255, 153, 52);}
 .col2, .col2 a{color:#FFFFFF; background-color:white;}/*slide background color*/
 .col3{color:#777777; background-color:#FFFFFF;}
-.col3 a{color:#95AD19; background-color:#FFFFFF;}
+/*.col3 a{color:#95AD19; background-color:#FFFFFF;}*/
 .col3 p{color:black;font-family:"Arial";font-size:14px;}
 
 .col4{color:#FFFFFF; background-color:#ff5c00;}
@@ -91,9 +91,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
   padding-bottom: 50px;
 
 }
-/* ----------------------------------------------Generalise------------------------------------- */
-
-#header, #topbar, #homepage, #breadcrumb, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+/*
 
 /* ----------------------------------------------Header------------------------------------- */
 
@@ -129,13 +127,26 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 .homepage p.readmore a{padding:8px 15px 10px; color:#FFFFFF; background-color:#95AD19;}
 
 /* ----------------------------------------------Events--------------------------------------------*/
+.eventnav li{
+  list-style:none;
+  float:left;
+  position:relative;
+}
+.eventnav a{
+  border:1px solid black;
+  outline:none;
+  text-decoration:none;
+  color:red;
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size:2em;
+  font-weight:bold;
+  border-radius:2px;
+  padding-left:2px;
+}
+.eventnav .selected{
+  background:gray;
+}
 
-.upcoming-event{display:block;width:60%;margin:-5% 0 0 20px;padding:0;}
-.upcoming-event h4{color:black;font-size:40px;padding-bottom:0;}
-.upcoming-event a:hover{background-color:grey}
-.upcoming-event ul{padding:0;margin:0;list-style:none;}
-.upcoming-event li{padding-top:5px;border-bottom:1px solid #999999;}
-.upcoming-event a{color:#006400;font-size:20px;}
 
 /*------------------------------------------------Quote----------------------------------------------*/
 
@@ -195,7 +206,10 @@ color:#FF4500}
 }
 
 */
+a{color:#B2C629; background-color:#FFFFFF; outline:none; text-decoration:none;}
+/*----------------------------------------------Generalise------------------------------------- */
 
+#header, #topbar, #homepage, #breadcrumb, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
 /* ----------------------------------------------Copyright------------------------------------- */
 #copyright{padding:10px 0;}
 #copyright p{margin:0; padding:0;}
