@@ -54,33 +54,39 @@ Licence URI: http://www.os-templates.com/template-terms
 </div>
 ####################################################################################################### -->
 <div class="wrapper col3">
-  <div id="container" ng-controller="UEventController as uevents" ng-controller="PEventController as pevents">
-  <div class="eventnav" ng-controller = "TabController as tab">
-    <ul>
-      <li ng-class="{ active: tab.isSet(1) }">
-        <a href ng-click="tab.setTab(1)">Upcoming Event</a>
-      </li>
-      <li ng-class="{ active: tab.isSet(2) }">
-        <a href ng-click="tab.setTab(2)">Past Event</a>
-      </li>
-    </ul>
+  <div id="container"  ng-controller = "TabController as tab"  >
+    <div class="eventnav">
+      <ul>
+        <li ng-class="{ active: tab.isSet(1) }">
+          <a href ng-click="tab.setTab(1)">Upcoming Event</a>
+        </li>
+        <li ng-class="{ active: tab.isSet(2) }">
+          <a href ng-click="tab.setTab(2)">Past Event</a>
+        </li>
+      </ul>
+    </div>
+    <div class="event-details">
+      <div ng-show="tab.isSet(1)" ng-controller="UEventController as uevents">
+        <ul>
+          <li ng-repeat="upcoming in uevents.uevent">
+            <p>{{upcoming.eventname}}
+            {{upcoming.description}}
+            {{upcoming.date}}</p>
+          </li>
+        </ul>
+      </div>
+      <div ng-show="tab.isSet(2)" ng-controller="PEventController as pevents">
+        <ul>
+          <li ng-repeat="past in pevents.pevent">
+            <p>{{past.eventname}}{{past.description}}{{past.date}}
+          </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
-  <div ng-show="tab.isSet(1)" ng-repeat = "uevent in uevents">
-    <h4>Upcoming Event</h4>
-    <p>{{uevent.eventname}}</p>
-    <p>
-      {{uevent.description}}
-    </p>
-  </div>
-  <div ng-show="tab.isSet(2)" ng-repeat="pevent in pevents">
-    <h4>Past Event</h4>
-    <p>{{pevent.eventname}}</p>
-    <p>{{pevent.description}}</P>
-  </div>
-  </div>
-    <br>
-    <br>
-    <br>
+  <br>
+  <br>
 </div>
 
 <!-- ####################################################################################################### -->

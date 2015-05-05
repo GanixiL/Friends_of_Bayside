@@ -114,6 +114,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 #container{padding:20px 0;}
 #container h1, #container h2, #container h3/*, #container h4, #container h5, #container h6*/{margin:0 0 15px 0; padding:0 0 8px 0; border-bottom:1px solid black;}
 #container h4 a{color:black;font-size:16px}
+
 /* ----------------------------------------------Homepage Block------------------------------------- */
 
 .homepage{display:block; width:100%; margin:15px 0 0 0; padding:0;}
@@ -146,7 +147,14 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 .eventnav .selected{
   background:gray;
 }
-
+.event-details{
+  padding-top :30px;
+}
+.event-details ul{
+  font-size:20px;
+  margin:5px 5px 5px 5px;
+  list-style:none;
+}
 
 /*------------------------------------------------Quote----------------------------------------------*/
 
