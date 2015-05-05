@@ -65,25 +65,29 @@ Licence URI: http://www.os-templates.com/template-terms
         </li>
       </ul>
     </div>
-    <div class="event-details">
+    <div class="event-details-list">
       <div ng-show="tab.isSet(1)" ng-controller="UEventController as uevents">
         <ul>
-          <li ng-repeat="upcoming in uevents.uevent">
+          <li class="event-details" ng-repeat="upcoming in uevents.uevent">
+            <div class="date"><p>{{upcoming.date}}<span>{{upcoming.month}}</span></p></div>
             <p>{{upcoming.eventname}}
-            {{upcoming.description}}
-            {{upcoming.date}}</p>
+            {{upcoming.description}}</p>
+
           </li>
         </ul>
       </div>
       <div ng-show="tab.isSet(2)" ng-controller="PEventController as pevents">
         <ul>
-          <li ng-repeat="past in pevents.pevent">
-            <p>{{past.eventname}}{{past.description}}{{past.date}}
+          <li class="event-details" ng-repeat="past in pevents.pevent">
+            <div class="date"><p>{{past.date}}<span>{{past.month}}</span></p></div>
+            <p>{{past.eventname}}
+              {{past.description}}</p>
+
           </li>
         </ul>
       </div>
     </div>
-
+    <!--Code above are angular JS-->
   </div>
   <br>
   <br>
