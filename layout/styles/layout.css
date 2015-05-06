@@ -101,11 +101,11 @@ img{display:block; margin:0; padding:0; border:none;}
   padding-top:5px;
   float:left;
   width:80px;
-  height:100px;
+  height:110px;
   background:#ededef;
   background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc));
   background: -moz-linear-gradient(top,  #ededef,  #ccc);
-  font:bold 30px/60px Arial Black, Arial, Helvetica, sans-serif;
+  font:bold 30px/60px Arial Blac80Arial, Helvetica, sans-serif;
   text-align:center;
   color:#000;
   text-shadow:#fff 0 1px 0;
@@ -119,7 +119,7 @@ img{display:block; margin:0; padding:0; border:none;}
 }
 .date span{
   display:block;
-  
+
   font:normal bold 11px/30px Arial, Helvetica, sans-serif;
   color:#fff;
   text-shadow:#00365a 0 -1px 0;

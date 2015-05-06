@@ -70,7 +70,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <ul class="events">
           <li ng-repeat="upcoming in uevents.uevent">
             <div class="event-details" >
-            <div class="date"><p>{{upcoming.date}}<span>{{upcoming.month}}</span></p></div>
+            <div class="date"><p>{{upcoming.date}}<span id="umonth">{{upcoming.month}}</span></p></div>
             <p>{{upcoming.eventname}}
             {{upcoming.description}}</p>
             </div>
@@ -81,7 +81,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <ul>
           <li ng-repeat="past in pevents.pevent">
             <div  class="event-details">
-            <div class="date"><p>{{past.date}}<span>{{past.month}}</span></p></div>
+            <div class="date"><p>{{past.date}}<span id="pmonth">{{past.month}}</span></p></div>
             <p>{{past.eventname}}
               {{past.description}}</p>
             </div>
