@@ -56,41 +56,7 @@ img{display:block; margin:0; padding:0; border:none;}
 .imgl{margin:0 8px 8px 0; clear:left;}
 .imgr{margin:0 0 8px 8px; clear:right;}
 
-/* ----------------------------------------------Wrapper------------------------------------- */
 
-div.wrapper{display:block; width:100%; margin:0; text-align:left;}
-div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5, div.wrapper h6*/{
-  margin:0;
-  padding:0;
-  font-weight:normal;
-  line-height:normal;
-  font-family:Georgia, "Times New Roman", Times, serif;
-}
-.col1{color:#CCCCCC; background-color:rgb(255, 153, 52);}
-.col2, .col2 a{color:#FFFFFF; background-color:white;}/*slide background color*/
-.col3{color:#777777; background-color:#FFFFFF;}
-/*.col3 a{color:#95AD19; background-color:#FFFFFF;}*/
-.col3 p{color:black;font-family:"Arial";font-size:14px;}
-
-.col4{color:#FFFFFF; background-color:#ff5c00;}
-.col4 a{color:#95AD19; background-color:#ff5c00;}
-.col5 {
-  position:relative;
-  bottom: 0;
-  width: 100%;
-  color:#333333; background-color:orange}
-.col5 a{color:#333333; background-color:orange}
-.col3 #ah img{
-  float:left;
-  width:120px;
-  padding-right:10px;
-  padding-bottom:10px;
-  border-radius:10%;
-}
-.col3 #ah .content{
-  padding-bottom: 50px;
-
-}
 /*
 
 /* ----------------------------------------------Header------------------------------------- */
@@ -153,6 +119,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 }
 .date span{
   display:block;
+  
   font:normal bold 11px/30px Arial, Helvetica, sans-serif;
   color:#fff;
   text-shadow:#00365a 0 -1px 0;
@@ -203,38 +170,51 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 .date span:before{left:13px;}
 .date span:after{right:13px;}
 
-
-.eventnav li{
-  list-style:none;
+.eventnav {
+  width:100%;
+  display:inline-block;
+}
+.eventnav-links:after {
+  display:block;
+  clear:both;
+  content:'';
+}
+.eventnav-links li {
+  margin:0px 0px;
   float:left;
-  position:relative;
+  left:-15px;
+  list-style:none;
 }
-.eventnav a{
-  border:1px solid black;
-  outline:none;
+.eventnav-links a {
+  padding:9px 15px;
+  display:inline-block;
+  border-radius:3px 3px 0px 0px;
+  background:#7FB5DA;
+  font-size:36px;
+  font-weight:600;
+  color:#4c4c4c;
+  transition:all linear 0.15s;
+}
+.eventnav-links a:hover {
+  background:#a7cce5;
   text-decoration:none;
-  color:red;
-  font-family: 'Lobster', Georgia, Times, serif;
-  font-size:2em;
-  font-weight:bold;
-  border-radius:2px;
-  padding-left:2px;
 }
-.eventnav .selected{
-  background:gray;
+.eventnav-links li.active a, .eventnav-links li.active a:hover {
+  background:#32FF20;
+  color:#4c4c4c;
 }
-.event-details-list{
-  padding-top :30px;
-  height:800px;
 
-}
 .event-details-list ul{
   font-size:20px;
   margin:5px 5px 5px 5px;
   list-style:none;
 }
 .event-details{
-	height:110px;
+  height:110px;
+  border-bottom:solid 1px black;
+}
+.ng-binding{
+  font-size:24px;
 }
 
 /*------------------------------------------------Quote----------------------------------------------*/
@@ -302,3 +282,39 @@ a{color:#B2C629; background-color:#FFFFFF; outline:none; text-decoration:none;}
 /* ----------------------------------------------Copyright------------------------------------- */
 #copyright{padding:10px 0;}
 #copyright p{margin:0; padding:0;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5, div.wrapper h6*/{
+  margin:0;
+  padding:0;
+  font-weight:normal;
+  line-height:normal;
+  font-family:Georgia, "Times New Roman", Times, serif;
+}
+.col1{color:#CCCCCC; background-color:rgb(255, 153, 52);}
+.col2, .col2 a{color:#FFFFFF; background-color:white;}/*slide background color*/
+.col3{color:#777777; background-color:#FFFFFF;}
+/*.col3 a{color:#95AD19; background-color:#FFFFFF;}*/
+.col3 p{color:black;font-family:"Arial";}
+
+.col4{color:#FFFFFF; background-color:#ff5c00;}
+.col4 a{color:#95AD19; background-color:#ff5c00;}
+.col5 {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  color:#333333; background-color:orange}
+  .col5 a{color:#333333; background-color:orange}
+  .col3 #ah img{
+    float:left;
+    width:120px;
+    padding-right:10px;
+    padding-bottom:10px;
+    border-radius:10%;
+  }
+  .col3 #ah .content{
+    padding-bottom: 50px;
+
+  }

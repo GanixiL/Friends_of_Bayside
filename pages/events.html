@@ -28,7 +28,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="../index.html">Home</a></li>
         <li><a href="news.html">News</a></li>
 
-        <li  class="active"><a href="events.html">Events</a></li>
+        <li  class="selected"><a href="events.html">Events</a></li>
         <li><a href="alumni.html">Alumni</a><ul><li><a href="alumnihistory.html">Alumni Hall of Fame</a></li></ul></li>
         <li class="last"><a href="about.html">About Us</a></li>
       </ul>
@@ -56,7 +56,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper col3">
   <div id="container"  ng-controller = "TabController as tab"  >
     <div class="eventnav">
-      <ul>
+      <ul class="eventnav-links">
         <li ng-class="{ active: tab.isSet(1) }">
           <a href ng-click="tab.setTab(1)">Upcoming Event</a>
         </li>
@@ -67,23 +67,24 @@ Licence URI: http://www.os-templates.com/template-terms
     </div>
     <div class="event-details-list">
       <div ng-show="tab.isSet(1)" ng-controller="UEventController as uevents">
-        <ul>
+        <ul class="events">
           <li ng-repeat="upcoming in uevents.uevent">
-            <div class="event-details">
-			<div class="date"><p>{{upcoming.date}}<span>{{upcoming.month}}</span></p></div>
+            <div class="event-details" >
+            <div class="date"><p>{{upcoming.date}}<span>{{upcoming.month}}</span></p></div>
             <p>{{upcoming.eventname}}
             {{upcoming.description}}</p>
-			</div>
+            </div>
           </li>
         </ul>
       </div>
       <div ng-show="tab.isSet(2)" ng-controller="PEventController as pevents">
         <ul>
-          <li class="event-details" ng-repeat="past in pevents.pevent">
+          <li ng-repeat="past in pevents.pevent">
+            <div  class="event-details">
             <div class="date"><p>{{past.date}}<span>{{past.month}}</span></p></div>
             <p>{{past.eventname}}
               {{past.description}}</p>
-
+            </div>
           </li>
         </ul>
       </div>
