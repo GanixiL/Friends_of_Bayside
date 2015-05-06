@@ -135,7 +135,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
   padding-top:5px;
   float:left;
   width:80px;
-
+  height:100px;
   background:#ededef;
   background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc));
   background: -moz-linear-gradient(top,  #ededef,  #ccc);
@@ -202,9 +202,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
 }
 .date span:before{left:13px;}
 .date span:after{right:13px;}
-.ng-binding{
-  height:100px;
-}
+
 
 .eventnav li{
   list-style:none;
@@ -235,6 +233,10 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
   margin:5px 5px 5px 5px;
   list-style:none;
 }
+.event-details{
+	height:110px;
+}
+
 /*------------------------------------------------Quote----------------------------------------------*/
 
 .missionstatement-title{font-family: 'Lobster', Georgia, Times, serif;font-size: 70px; margin-top:-20px;color:blue }
