@@ -24,13 +24,12 @@ body{
   background-color:#FFFFFF;
 }
 .main{
-  width:80%;
+  width:1060px;
   display:block;
+  margin:0 auto;
   float: left;
   position: relative;
   left:10%;
-  margin-left:auto;
-  margin-right:auto;
   top:20px;
   overflow:hidden;
   border:groove;
@@ -174,6 +173,9 @@ img{display:block; margin:0; padding:0; border:none;}
   width:100%;
   display:inline-block;
 }
+.eventnav-links{
+  margin-left:-40px;
+}
 .eventnav-links:after {
   display:block;
   clear:both;
@@ -182,7 +184,6 @@ img{display:block; margin:0; padding:0; border:none;}
 .eventnav-links li {
   margin:0px 0px;
   float:left;
-  left:-15px;
   list-style:none;
 }
 .eventnav-links a {
@@ -203,7 +204,9 @@ img{display:block; margin:0; padding:0; border:none;}
   background:#32FF20;
   color:#4c4c4c;
 }
-
+.event-details-list{
+  margin-top:-14px;
+}
 .event-details-list ul{
   font-size:20px;
   margin:5px 5px 5px 5px;
@@ -211,7 +214,8 @@ img{display:block; margin:0; padding:0; border:none;}
 }
 .event-details{
   height:110px;
-  border-bottom:solid 1px black;
+
+
 }
 .ng-binding{
   font-size:24px;
@@ -305,16 +309,18 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3/* div.wrapper h4, div.wrapper h5,
   position:relative;
   bottom: 0;
   width: 100%;
-  color:#333333; background-color:orange}
-  .col5 a{color:#333333; background-color:orange}
-  .col3 #ah img{
+  height:35px;
+  color:#333333; background-color:orange
+}
+.col5 a{color:#333333; background-color:orange}
+.col3 #ah img{
     float:left;
     width:120px;
     padding-right:10px;
     padding-bottom:10px;
     border-radius:10%;
   }
-  .col3 #ah .content{
+.col3 #ah .content{
     padding-bottom: 50px;
 
   }
