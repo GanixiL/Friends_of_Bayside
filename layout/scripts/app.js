@@ -17,8 +17,8 @@
   });
   var uEvents = [
   {
-    eventname:'UEvent1',
-    description:"This is Upcoming Event Number 1",
+    eventname:'Family Fun Day and Open House',
+    description:"We are having an open house and family fun day in Bayside",
     date:'01',
     month:'Jan'
   },
