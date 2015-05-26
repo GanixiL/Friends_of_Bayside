@@ -7,16 +7,7 @@
 
 html{
   overflow-y:scroll;
-  /*background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
-  background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
-  background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
-  background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
-  -webkit-background-size: 4px 4px;
-  -moz-background-size: 4px 4px;
-  background-size: 4px 4px;*/
-  background-image:url("../../images/pic/bgimg.gif");
-  background-size:100% 102%;
-  background-repeat:no-repeat;
+
 
 
 }
@@ -27,14 +18,19 @@ body{
   font-family:verdana, Arial, Helvetica, sans-serif;
   color:rgb(244,92,24);
   background-color:#FFFFFF;
+  height:2000px;
+  position:relative;
+  background-image:url("../../images/pic/bgimg.gif");
+  background-size:100% 102%;
+  background-repeat:no-repeat;
 }
 .main{
   width:1060px;
   display:block;
-  margin:0 auto;
+  margin:0 0 0 -530px;
   float: left;
-  position: relative;
-  left:12%;
+  position: absolute;
+  left:50%;
   top:20px;
   overflow:hidden;
   border:groove;

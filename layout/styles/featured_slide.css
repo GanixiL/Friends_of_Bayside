@@ -4,7 +4,7 @@
 #featured_slide{
   display:block;
   position:relative;
-  width:960px;
+  width:860px;
   height:360px;
   margin:0 auto;
   padding:20px 50px;
@@ -42,7 +42,7 @@
 
 #featured_content, #featured_content ul{
   display:block;
-  width:960px;
+  width:860px;
   height:360px;
   margin:0;
   padding:0;
@@ -52,7 +52,7 @@
 #featured_content li{
   display:block;
   position:relative;
-  width:960px;
+  width:860px;
   height:360px;
   overflow:hidden;
 }
